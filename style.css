@@ -3,12 +3,12 @@ html {
 }
 
 body {
-	background-color: ##F5F0E5;
+	background-color: #F5F0E5;
 
 }
 
 .div-block-1 {
-	color: ##0e2d22;
+	color: #0e2d22;
 	font-family: "Comic Sans MS", sans-serif;
 	font-weight: bold;
 	font-size: 3rem;
@@ -16,7 +16,7 @@ body {
 
 .link-1 {
 	display:  inline-block;
-	background-image:  ;
+	background-image: #524c56;
 }
 
 .link-1:hover {
