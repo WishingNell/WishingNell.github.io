@@ -27,4 +27,5 @@ a {
 
 .link-1:hover {
 	color: inherit
+	background: linear-gradient(#524c56, #9198e5);
 	}
