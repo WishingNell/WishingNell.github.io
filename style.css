@@ -3,13 +3,23 @@ html {
 }
 
 body {
-	background-color: #173a24;
-	
+	background-color: ##F5F0E5;
+
 }
 
 .words {
-	color: #FFF3F0;
+	color: ##0e2d22;
 	font-family: "Comic Sans MS", sans-serif;
 	font-weight: bold;
 	font-size: 3rem;
+}
+
+.link-1 {
+	display:  inline-block;
+	background-image:  ;
+}
+
+.link-1:hover {
+	color: #fff
+	text-shadow: 0 -1px 1px #000, 1px 1px 1px #000, 0 1px 1px #000, 1px 1px 1px #000, 1px 0 1px #000, 0 -1px 1px #000;
 }

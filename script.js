@@ -12,4 +12,3 @@ window.addEventListener('DOMContentLoaded', (event) => {
 const scream2 = (phrase) => {
 	console.log('I scream: ' + phrase)
 }
- 
