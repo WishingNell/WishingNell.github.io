@@ -12,10 +12,15 @@ body {
 	font-family: "Comic Sans MS", sans-serif;
 	font-weight: bold;
 	font-size: 3rem;
+	text-decoration: none;
+}
+
+a {
+  color: inherit;
 }
 
 .link-1 {
-	display:  inline-block;
+	display: inline-block;
 	background-image: #524c56;
 }
 
