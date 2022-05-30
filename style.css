@@ -20,12 +20,15 @@ a {
 
 .link-1 {
 	display: inline-block;
-    color: #ffff;
+    color: #ffffff;
     text-decoration: none;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 2px 2px 3px #000000;
 }
 
 .link-1:hover {
-	color: inherit
-	background: linear-gradient(45deg, #524c56, #9198e5);
+	border-width: 1px;
+	border-style: dashed;
+	background: linear-gradient(#524c56);
+	color: inherit;
+	display: inline-block;
 	}
