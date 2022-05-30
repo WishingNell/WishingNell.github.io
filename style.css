@@ -20,15 +20,11 @@ a {
 
 .link-1 {
 	display: inline-block;
-	background-image: #524c56;
-	text-decoration: none;
-    text-decoration-line: none;
-    text-decoration-thickness: initial;
-    text-decoration-style: initial;
-    text-decoration-color: initial;
+    color: #ffff;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #00000
 }
 
 .link-1:hover {
 	color: #F5F0E5
-	text-shadow: 0 -1px 1px #00000, 1px 1px 1px #00000, 0 1px 1px #00000, 1px 1px 1px #00000, 1px 0 1px #00000, 0 -1px 1px #00000;
-}
+	}
