@@ -12,7 +12,6 @@ body {
 	font-family: "Comic Sans MS", sans-serif;
 	font-weight: bold;
 	font-size: 3rem;
-	text-decoration: none;
 }
 
 a {
@@ -22,6 +21,11 @@ a {
 .link-1 {
 	display: inline-block;
 	background-image: #524c56;
+	text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
 }
 
 .link-1:hover {
