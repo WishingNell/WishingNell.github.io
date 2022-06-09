@@ -7,28 +7,98 @@ body {
 
 }
 
-.div-block-1 {
-	color: #0e2d22;
-	font-family: "Comic Sans MS", sans-serif;
-	font-weight: bold;
+/*Header Section*/
+
+h1 {
+	color: #000000;
+	font-family: "Yu Gothic", sans-serif;
 	font-size: 3rem;
+	text-align: center;
 }
 
 a {
   color: inherit;
 }
 
-.link-1 {
-	display: inline-block;
-    color: #ffffff;
-    text-decoration: none;
-    text-shadow: 2px 2px 3px #000000;
-}
-
-.link-1:hover {
-	border-width: 1px;
-	border-style: dashed;
-	background: linear-gradient(#524c56);
-	color: inherit;
-	display: inline-block;
+	.header {
+		position: relative;
+		padding: 100px 50px;
+		background-color: rgba(255, 0, 136, 0.44) ;
 	}
+
+	.header::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		z-index: -1;
+		background-image: url("http://placekitten.com/1280/720");
+		background-size: cover;
+		opacity: 1;
+	}
+
+	.link-1 {
+		display: inline-block;
+	    font-family: "Zen Tokyo Zoo", sans-serif;
+	    color: #ffffff;
+	    text-shadow: 2px 2px 2px #00000;
+	}
+
+	.link-1:hover {
+		display: inline-block;
+		font-family: "Zen Tokyo Zoo", sans-serif;
+		color: inherit;
+		background-color: #ff0088;
+	}
+
+/* Body Section */
+
+body {
+	color: #000000;
+	font-family: "Yu Gothic", sans-serif;
+	font-size: 2rem;
+	text-align: ;
+}
+	.whatIDo {
+		position: relative;
+		padding: 0 50px;
+	}
+	ul {
+		list-style: none;
+	}
+
+	ul.sidenav {
+		font-size: 1rem;
+		float: left;
+		width: 200px;
+		margin: 0;
+		padding: 0;
+		background: #005094;
+		border-bottom: 1px solid #3373a9;
+		border-top: 1px solid #003867;
+	}
+
+	ul.sidenav li a{
+		display: block;
+		color: #fff;
+		list: none;
+		text-decoration: none;
+		width: 155px;
+		padding: 10px 10px 10px;
+	}
+
+	ul.skillSet li a:hover {
+		background-color: #ff0088
+	}
+	ul.skillSet li span{	
+		display: none; 
+	}
+
+	ul.skillSet li a:hover span {
+		display: block;
+		font-size: 0.8em;
+		padding: 0 10px;
+		position: relative; left: 180px;
+	} 
