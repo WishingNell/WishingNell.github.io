@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin-top: 250px;
+    margin-top: 50px;
 }
 
 .demo-player {
@@ -34,7 +34,6 @@
 }
 
 .demo-player-volume-box {
-    position: relative;
     padding: 0 15px;
     display: flex;
     align-items: center;
@@ -47,10 +46,26 @@
     margin-right: 10px;
 }
 
-.demo-player-volume-box .demo-player-volume-bar { 
+.demo-player-volume-bar {
+    position: relative;
     flex-grow: 1;
     height: 10px;
-    background-color: #fff;
+    background-color: #878787;
+}
+
+.demo-player-volume-level {
+    height: 100%;
+    width: 25%;
+    background-color: #d9d9d9;
+}
+
+.demo-player-volume-indicator {
+    position: absolute;
+    top: -3px;
+    left: 25%;
+    width: 5px;
+    height: 16px;
+    background-color: #d9d9d9;
 }
 
 .circle-button {
@@ -58,7 +73,7 @@
     height: 55px;
     border: 8px solid #fff;
     border-radius: 50%;
-    box-shadow: 1.5px 3px 0px rgba(0, 35, 104, 0.65);
+    box-shadow: 1.5px 3px 0px hsl(252, 33%, 38%/*, .2*/);
 }
 
 .demo-player-bottom .circle-button {
@@ -74,10 +89,6 @@
     display: block;
     position: absolute;
     z-index: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
     margin: auto;
     width: 30px;
     height: 30px;
@@ -86,6 +97,5 @@
 }
 
 .demo-player-bottom .flipside-icon {
-    position: relative;
     z-index: 1;
 }
