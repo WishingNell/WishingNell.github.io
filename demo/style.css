@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+
 .demo-player-container {
     display: flex;
     align-items: center;
@@ -19,11 +20,73 @@
     background-color: #C678C3;
 }
 
-.demo-label {
+.demo-player-label {
+    display: flex; 
+    padding: 10px 15px;
     width: auto;
     height: 130px;
     margin: 30px;
     background-color: #fff;
+}
+
+.demo-player-label > div:last-child {
+    width: 100%;
+    margin-right: 60px; 
+}
+
+.demo-player-side-display {
+    background-color: #d9d9d9;
+    width: 45px;
+    height: 45px;
+    margin-right: 15px;
+    border-radius: 50%;
+    box-shadow: 1.5px 3px 0px hsl(252, 33%, 38%/*, .2*/);   
+}
+
+.demo-player-label-title {
+    line-height: 40px;
+}
+
+.demo-player-play-box {
+    display: flex;
+    align-items: center;
+    height: 50%;
+    background-color: #d9d9d9
+}
+
+.tape-wheel {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+    width: 55px; 
+}
+
+.tape-wheel > * {
+    position: absolute;
+}
+
+.play-icon {
+    margin-left: 5px;
+}
+
+.duration {
+    flex-grow: 1; 
+}
+
+.demo-player-duration-bar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 9px;
+    width: 100%; 
+    background-color: #C678C3;
+}
+
+.duration-indicator-icon {
+    position: absolute;
+    left: 25%;
 }
 
 .demo-player-bottom {

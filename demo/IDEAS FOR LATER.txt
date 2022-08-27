@@ -1,0 +1,3 @@
+IDEAS FOR LATER
+- Gradient color on the Demo Tape? 
+- Export Icons as Transparent so colors can be customized with CSS
