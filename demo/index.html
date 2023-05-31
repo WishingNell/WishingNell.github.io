@@ -7,7 +7,7 @@
 		<link href="./reset.css" rel="stylesheet">
 		<link href="./style.css" rel="stylesheet">
 		<!-- JS Script -->
-		<script async src="./script.js"></script>
+		<script src="./eap.js"></script>
 		<link rel="icon" type="image/png" href="../media/favicon.png">
 		<title>Demo</title>
 		<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,47 +15,53 @@
 		<link href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
 	</head>
 	<body>
-        <div class="demo-player-container">
-            <div class="demo-player">
-                <div class="demo-player-top">
+		<div class="demo-player-container">
+			<div class="demo-player">
+				<div class="demo-player-top">
 					<div class="demo-player-label">
 						<div>
-							<div class="demo-player-side-display"></div>
+							<div class="demo-player-side-display">A</div>
 						</div>
 						<div>
-							<div class="demo-player-label-title">CHARACTER</div>
+							<div class="demo-player-label-title eap-track-title"></div>
 							<div class="demo-player-play-box">
-								<div class="tape-wheel supply-wheel">
-									<object data="../assets/TapeWheelIcon.svg" type="image/svg+xml" class="tape-wheel-icon"></object>
-									<object data="../assets/PlayIcon.svg" type="image/svg+xml" class="play-icon"></object>
+								<div class="tape-wheel supply-wheel eap-play-pause">
+									<img src="../assets/TapeWheelIcon.svg"class="tape-wheel-icon"></img>
+									<img src="../assets/PlayIcon.svg" class="play-icon"></img>
 								</div>
 								<div class="duration">
-									<div class="demo-player-duration-bar">
-										<object data="../assets/PlayIndicatorIcon.svg" type="image/svg+xml" class="duration-indicator-icon"></object>
+									<div class="demo-player-duration-bar eap-duration">
+										<img
+											src="../assets/PlayIndicatorIcon.svg"
+											class="duration-indicator-icon eap-duration-indicator"
+											draggable="false"
+										>
+										</img>
 									</div>
 								</div>
-								<div class="tape-wheel uptake-wheel">
-									<object data="../assets/TapeWheelIcon.svg" type="image/svg+xml" class="tape-wheel-icon"></object>
-									<object data="../assets/ReplayIcon.svg" type="image/svg+xml" class="replay-icon"></object>
+								<div class="tape-wheel uptake-wheel eap-replay-track">
+									<img src="../assets/TapeWheelIcon.svg" class="tape-wheel-icon"></img>
+									<img src="../assets/ReplayIcon.svg" class="replay-icon"></img>
 								</div>
 							</div>
 						</div>
 					</div>
-                </div>
-                <div class="demo-player-bottom">
-                    <div class="demo-player-info circle-button"></div>
-                    <div class="demo-player-volume-box">
-						<object data="../assets/SpeakerIcon.svg" type="image/svg+xml" class="speaker-icon"></object>
-						<div class="demo-player-volume-bar">
+				</div>
+				<div class="demo-player-bottom">
+					<div class="demo-player-info circle-button"></div>
+					<div class="demo-player-volume-box">
+						<img src="../assets/SpeakerIcon.svg" class="speaker-icon"></img>
+						<div class="demo-player-volume-bar eap-volume">
+							<div class="demo-player-volume-level eap-volume-progress"></div>
 							<div class="demo-player-volume-indicator"></div>
-							<div class="demo-player-volume-level"></div>
 						</div>
 					</div>
-                    <div class="demo-player-flip circle-button">
-						<object data="../assets/FlipSideIcon.svg" type="image/svg+xml" class="flipside-icon"></object>
+					<div class="demo-player-flip circle-button eap-next-track">
+						<img src="../assets/FlipSideIcon.svg" class="flipside-icon"></img>
 					</div>
-                </div>
-            </div>
-        </div>
+				</div>
+			</div>
+		</div>
+		<script src="./script.js"></script>
 	</body>
 </html>
