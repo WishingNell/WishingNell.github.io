@@ -1,0 +1,57 @@
+CSS Scraps
+	.link-1:hover {
+		display: inline-block;
+		font-family: "Zen Tokyo Zoo", sans-serif;
+		color: inherit;
+		background-color: #B91533;
+	}
+
+
+/* From when I had skillsets in a list of hyperlinks */
+
+ul {
+	list-style: none;
+}
+
+ul.sidenav {
+	font-size: 1rem;
+	float: left;
+	width: 200px;
+	margin: 0;
+	padding: 0;
+}
+
+ul.sidenav li a{
+	display: block;
+	color: #fff;
+	list: none;
+	text-decoration: none;
+	width: 155px;
+	padding: 10px 10px 10px;
+}
+
+ul.skillSet li a:hover {
+	background-color: #B91533
+}
+ul.skillSet li span{
+	display: none; 
+}
+
+ul.skillSet li a:hover span {
+	display: block;
+	font-size: 0.8em;
+	
+	padding: 0 10px;
+	position: relative; left: 180px;
+	transition-delay: 0.7s
+} 
+
+ul.skillSet li a:focus span{
+	display: block;
+	font-size: 0.8em;
+	padding: 0 10px;
+	position: relative; left: 180px;
+	transition-delay: 0.7s
+} 
+
+

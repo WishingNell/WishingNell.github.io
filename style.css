@@ -1,29 +1,48 @@
 html {
-	font-size: 16px;
+	font-size: 18px;
 }
+
 
 body {
-	background-color: #F5F0E5;
-
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
+
+p {
+	font-family: 'Shippori Antique', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+  }
 
 /*Header Section*/
 
 h1 {
-	color: #000000;
-	font-family: "Yu Gothic", sans-serif;
+	color: #000;
+	font-size: 5rem;
+	text-align: center;
+}
+
+h2 {
+	color: #000;
 	font-size: 3rem;
+}
+
+subtitle {
+	color: #292929;
+	font-size: 1rem;
 	text-align: center;
 }
 
 a {
   color: inherit;
+  font-size: 1rem;
 }
 
 	.header {
 		position: relative;
-		padding: 100px 50px;
-		background-color: rgba(255, 0, 136, 0.44) ;
+		padding: 20%;
 	}
 
 	.header::before {
@@ -34,78 +53,37 @@ a {
 		right: 0;
 		left: 0;
 		z-index: -1;
-		background-image: url("http://placekitten.com/1280/720");
 		background-size: cover;
 		opacity: 1;
 	}
 
 	.link-1 {
 		display: inline-block;
-	    font-family: "Zen Tokyo Zoo", sans-serif;
-	    color: #ffffff;
+	    color: #fff;
 	    text-shadow: 2px 2px 2px #00000;
 	}
 
-	.link-1:hover {
-		display: inline-block;
-		font-family: "Zen Tokyo Zoo", sans-serif;
-		color: inherit;
-		background-color: #B91533;
-	}
 
 /* Body Section */
 
 body {
-	color: #000000;
-	font-family: "Yu Gothic", sans-serif;
-	font-size: 2rem;
+	color: #000;
+	font-family: 'Shippori Antique', 'Verdana', sans-serif;
+	font-size: 1rem;
+	margin: 0;
 	}
 	
 	nav {
 		position: relative;
-		padding: 0 50px;
+		padding: 25px 50px;
+		float: right;
 	}
-		ul {
-			list-style: none;
-		}
 
-		ul.sidenav {
-			font-size: 1rem;
-			float: left;
-			width: 200px;
-			margin: 0;
-			padding: 0;
-		}
+	/* FullWidthHeight Page Sections (100% viewport height) */
+	.fwh-slide {
+		height: 100vh;
+	}
 
-		ul.sidenav li a{
-			display: block;
-			color: #fff;
-			list: none;
-			text-decoration: none;
-			width: 155px;
-			padding: 10px 10px 10px;
-		}
-
-		ul.skillSet li a:hover {
-			background-color: #B91533
-		}
-		ul.skillSet li span{
-			display: none; 
-		}
-
-		ul.skillSet li a:hover span {
-			display: block;
-			font-size: 0.8em;
-			
-			padding: 0 10px;
-			position: relative; left: 180px;
-			transition-delay: 0.7s
-		} 
-
-		ul.skillSet li a:focus span{
-			display: block;
-			font-size: 0.8em;
-			padding: 0 10px;
-			position: relative; left: 180px;
-			transition-delay: 0.7s
-		} 
+	.fwh-slide p {\
+		margin: 0;
+	}
