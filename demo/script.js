@@ -4,11 +4,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
 	const container = document.querySelector('.demo-player-container')
 	const tracklist = [
 		{
-			title: 'Character',
+			title: 'CHARACTER DEMO',
 			filename: '1'
 		},
 		{
-			title: 'Imaging',
+			title: 'IMAGING DEMO',
 			filename: '2'
 		}
 	]

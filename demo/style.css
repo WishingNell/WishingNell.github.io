@@ -21,7 +21,12 @@
     justify-content: space-between;
     width: 445px;
     height: 255px;
-    background-color: #C678C3;
+    background-color: #2C2B2B;
+    border-left: 1px solid #020024;
+    border-top: 1px solid #020024;
+    border-right: 3px solid #020024;
+    border-bottom: 4px solid #020024;
+    border-radius: 5px;
 }
 
 .demo-player-label {
@@ -30,7 +35,13 @@
     width: auto;
     height: 130px;
     margin: 30px;
-    background-color: #fff;
+    font-family: 'Gochi Hand', cursive;
+    font-size: 1.85rem;
+    text-align: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(255,27,192,1) 100%);
+    border: 1px solid #020024;
+    border-radius: 5px;
 }
 
 .demo-player-label > div:last-child {
@@ -39,26 +50,30 @@
 }
 
 .demo-player-side-display {
-    background-color: #d9d9d9;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 45px;
     height: 45px;
+    font-family: 'Gochi Hand', cursive;
+    font-size: 2.5rem;
     margin-right: 15px;
     border-radius: 50%;
-    /*box-shadow: 1.5px 3px 0px hsl(252, 33%, 38%);   */
+    box-shadow: 1.5px 3px 0px hsl(243, 100%, 7%);;
 }
 
 .demo-player-label-title {
     line-height: 40px;
+    border-radius: 1px;
 }
 
 .demo-player-play-box {
     display: flex;
     align-items: center;
     height: 50%;
-    background-color: #d9d9d9
+    background-color: #0c0b13;
+    border-radius: 1px;
 }
 
 .tape-wheel {
@@ -91,7 +106,7 @@
 
 .duration {
     flex-grow: 1;
-    background-color: #C678C3;
+    background-color: #fd40c8;
 }
 
 .demo-player-duration-bar {
@@ -101,7 +116,7 @@
     height: 9px;
     width: 60%;
     margin-left: 20%; 
-    background-color: #C678C3;
+    background-color: #fd40c8;
 }
 
 .duration-indicator-icon {
@@ -124,7 +139,10 @@
     align-items: center;
     width: 300px; 
     height: 50px;
-    border: 1px solid #333;
+    border-left: 3px solid #020024;
+    border-right: 2px solid #b4298d;
+    border-top: 4px solid #020024;
+    border-radius: 5px;
 }
 
 .demo-player-volume-box .speaker-icon {
@@ -136,12 +154,12 @@
     display:  flex;
     flex-grow: 1;
     height: 10px;
-    background-color: #878787;
+    background-color: #000000;
 }
 
 .demo-player-volume-level {
     height: 100%;
-    background-color: #d9d9d9;
+    background-color: #fff;
 }
 
 .demo-player-volume-indicator {
@@ -149,16 +167,16 @@
     height: 16px;
     margin-top: -3px;
     margin-left: -2.5px;
-    background-color: #d9d9d9;
+    background-color: #fff;
     cursor: pointer;
 }
 
 .circle-button {
     width: 55px;
     height: 55px;
-    border: 8px solid #fff;
+    border: 8px solid #000;
     border-radius: 50%;
-    box-shadow: 1.5px 3px 0px hsl(252, 33%, 38%/*, .2*/);
+    box-shadow: 1.5px 3px 0px hsl(243, 100%, 7%);
     cursor: pointer;
 }
 
@@ -185,7 +203,7 @@
     margin: auto;
     width: 30px;
     height: 30px;
-    background: #fff;
+    background: #000;
     border-radius: 50%;
 }
 

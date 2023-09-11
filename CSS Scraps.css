@@ -40,7 +40,6 @@ ul.skillSet li span{
 ul.skillSet li a:hover span {
 	display: block;
 	font-size: 0.8em;
-	
 	padding: 0 10px;
 	position: relative; left: 180px;
 	transition-delay: 0.7s
