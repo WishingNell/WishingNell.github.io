@@ -39,3 +39,4 @@ const makeSlideshow = (container) => {
 
 makeSlideshow('.slideshow-idx')
 makeSlideshow('.slideshow-closet-cookie')
+makeSlideshow('.slideshow-typeaway')

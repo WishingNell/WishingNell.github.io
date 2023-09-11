@@ -12,14 +12,14 @@ p {
 /*Header Section*/
 
 h1 {
-	color: #163A4D;
-	font-size: 5rem;
+	color: #144A61;
+	font-size: 8rem;
 	text-align: center;
 }
 
 h2 {
-	color: #163A4D;
-	font-size: 3rem;
+	color: #144A61;
+	font-size: 5rem;
 	letter-spacing: 2px; 
 }
 
@@ -65,10 +65,10 @@ nav a {
 /* Body Section */
 
 body {
-	color: #163A4D;
+	color: #144A61;
 	font-family: 'Shippori Antique', 'Verdana', sans-serif;
 	font-size: 1rem;
-	background-color: #9FD4C8;
+	background-color: #FFE3D4;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -91,9 +91,9 @@ nav {
 	margin: 0;
 } 
 
-.slideshow-wrap {
+.slideshow-overlay {
 	background-color: #000
-	z-index: 1;
+	z-index: 10;
 }
 
 .slideshow-container {
@@ -112,13 +112,14 @@ nav {
 .slideshow {
 	position: relative;
 	width: 100%;
-	height: 500px;
+	height: 550px;
   }
 
   .slideshow img {
 	position: absolute;
-	width: initial;
-	height: initial;
+	object-fit: 	;
+	width: 100%;
+	height: 100%;
 	opacity: 0;
 	transition: opacity 0.5s ease-in-out;
 	
